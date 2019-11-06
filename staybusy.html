@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
         <style>
             .navbar-default {
-                background: rgba(209, 233, 255, 0.47);
+                background: url(https://res.cloudinary.com/dht5bpbmi/image/upload/v1573053626/Group2_hcri6d.png);
 
             }
             .navbar-default li a {
@@ -23,12 +23,13 @@
                 border-color: #000;
             }
             .banner {
-                background: rgba(209, 233, 255, 0.47);
+                background: url(https://res.cloudinary.com/dht5bpbmi/image/upload/v1573053646/Group_xgk0rt.png);
             }
             .banner h4 {
                 font-weight: 800;
-                font-size: 2rem;
+                font-size: 2.6rem;
                 color: #105293;
+                line-height: 50px;
             }
             .banner p {
                 color:#707070;
@@ -37,11 +38,61 @@
                 color: #105293;
                 font-weight: 500;
             }
-            .pt-8 {
-                padding-top: 7rem;
+            .pad-top {
+                padding-top: 8rem;
+                padding-bottom: 0;
             }
-            .pr-8 {
-                padding-right: 14rem;
+            .pad-right {
+                padding-right: 12rem;
+            }
+            .image {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            .image li {
+                display: inline;
+            }
+            .first-phone {
+               position: relative;
+               
+            }
+            .second-phone {
+                position: absolute;
+                bottom: 20%;
+                left: 34%;
+            }
+            .trdc {
+                background: url(https://res.cloudinary.com/dht5bpbmi/image/upload/v1573053734/Group3_xo3j1p.png);
+            }
+            .t {
+                color: rgba(16, 82, 147, 0.4);
+                font-size: 2.7rem;
+                font-weight: 800;
+            }
+            .d {
+                color: rgba(16, 82, 147, 0.7);
+                font-size: 2.7rem;
+                font-weight: 800;
+            }
+            .writeup {
+                padding-left: 5rem;
+            }
+
+            @media (max-width: 576px){
+                .pad-right {
+                    padding-right: 0;
+                }
+                .image {
+                    padding-top: 5rem;
+                }
+                .image-custom {
+                    width: 200px;
+                }
+                .image-trdc {
+                    width: 100%;
+                    
+                }
             }
         </style>
     </head>
@@ -69,28 +120,46 @@
         </nav>
 
         <div class="container-fluid banner">
-            <div class="container pt-8">
+            <div class="container pad-top">
                 <div class="row">
-                    <div class="col-md-6 pr-8">
+                    <div class="col-md-6 pad-right">
                         <h4>We give your businness a story</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio pulvinar leo eu sit. 
                             Orci tempus ac dolor venenatis egestas sem etiam. <a href="#">Contact us</a></p>
                     </div>
                     <div class="col-md-6">
-                        <div class="image">
-                            <img src="https://res.cloudinary.com/dht5bpbmi/image/upload/v1572990709/first_oklwhq.png">
-                            <img src="https://res.cloudinary.com/dht5bpbmi/image/upload/v1572990722/second_btmgat.png">
-                        </div>
+                        <ul class="image">
+                            <li class="first-phone"><img src="https://res.cloudinary.com/dht5bpbmi/image/upload/v1573053542/android2_tywozl.png" height="444px" width="250px" class="image-custom"></li>
+                            <li class="second-phone"><img src="https://res.cloudinary.com/dht5bpbmi/image/upload/v1573053507/android_xkhnvj.png" height="444px" width="250px" class="image-custom"></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
 
+        <section>
+            <div class="container-fluid trdc">
+                <div class="container pt-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="https://res.cloudinary.com/dht5bpbmi/image/upload/v1573053607/trdc_cdcukx.png" height="400px" class="image-trdc">
+                        </div>
+                        <div class="col-md-6 writeup pt-5">
+                            <h4 class="t pb-4">Think</h4>
+                            <h4 class="t pb-4">Research</h4>
+                            <h4 class="d pb-4">Design</h4>
+                            <h4 class="t">Create</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         
         
         
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>   
     </body>
 </html>
