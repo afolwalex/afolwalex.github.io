@@ -1,0 +1,99 @@
+body {
+    color: #ffffff;
+    font-size: 1rem;
+}
+.background {
+    width: 100%;
+    background: url(img/intro-bg.jpg);
+    background-size: cover;
+
+}
+.img-default {
+    height: 50px;
+    width: 200px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+    color: #ffffff;
+    border: none;
+}
+.navbar-nav {
+    height: 100%;
+    text-align: center;
+}
+.active {
+    border-bottom: 1px solid yellow;
+    color: #ffffff !important;
+}
+.nav-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+}
+.nav-link:hover {
+    border-bottom: 1px solid yellow;
+    color: #ffffff;
+}
+.intro {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.market {
+    color: red;
+}
+.default-para {
+    font-size: 1.3rem;
+}
+.play {
+    font-size: 6rem;
+    color: red;
+}
+.btn-default {
+    background: inherit;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: #fff;
+}
+.about {
+    background: url(img/about-bg.jpg);
+}
+.event-head {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.event-para {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.underline {
+    width: 70px;
+    background: red;
+    height: 2px;
+}
+.first-bg {
+    height: 250px;
+    background: url(img/4.jpg);
+    background-size: cover;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.second-bg {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: rgba(62, 62, 87, 0.6);
+}
+@media (max-width: 576px){
+    .intro {
+        font-size: 3rem;
+    }
+    .default-para {
+       font-size: 1rem;
+    }
+}
