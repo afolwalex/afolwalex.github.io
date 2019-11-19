@@ -2,11 +2,8 @@ body {
     color: #ffffff;
     font-size: 1rem;
 }
-.background {
-    width: 100%;
-    background: url(img/intro-bg.jpg);
-    background-size: cover;
-
+.navbar{
+    background: rgba(6, 12, 34, 0.8);
 }
 .img-default {
     height: 50px;
@@ -24,7 +21,7 @@ body {
     text-align: center;
 }
 .active {
-    border-bottom: 1px solid yellow;
+    border-bottom: 2px solid #f82249;
     color: #ffffff !important;
 }
 .nav-link {
@@ -32,33 +29,102 @@ body {
     font-weight: bold;
 }
 .nav-link:hover {
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid #f82249;
     color: #ffffff;
+}
+.btn-custom {
+    background: #f82249;
+    border-radius: 15px;
+    color: #fff;
+    font-size: .9rem;
+    font-weight: normal;
+}
+.btn-custom:hover{
+    background: inherit;
+    border: 2px solid #f82249;
+}
+.background {
+    width: 100%;
+    height: 80vh;
+    background: url(img/intro-bg.jpg) top center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.background:before {
+    content: "";
+    background: rgba(6, 12, 34, 0.8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.background .intro-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 90px;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 15px;
 }
 .intro {
     color: #ffffff;
     font-size: 4rem;
     font-weight: 500;
+    text-transform: uppercase;
 }
 .market {
-    color: red;
+    color: #f82249;
 }
 .default-para {
     font-size: 1.3rem;
 }
 .play {
     font-size: 6rem;
-    color: red;
+    color: #f82249;
 }
 .btn-default {
     background: inherit;
-    border: 2px solid red;
+    border: 2px solid #f82249;
     border-radius: 15px;
     color: #fff;
 }
+.btn-default:hover {
+    background: #f82249;
+    color: #ffffff;
+}
 .about {
     background: url(img/about-bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    padding: 60px 0 40px 0;
 }
+.about:before {
+    content: "";
+    background: rgba(13, 20, 41, 0.8);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 .event-head {
     color: #000000;
     text-transform: uppercase;
@@ -72,7 +138,7 @@ body {
 }
 .underline {
     width: 70px;
-    background: red;
+    background: #f82249;
     height: 2px;
 }
 .first-bg {
