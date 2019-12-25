@@ -184,8 +184,8 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     z-index: 9999;
     overflow-y: auto;
-    left: -350px;
-    width: 350px;
+    left: -260px;
+    width: 260px;
     padding-top: 18px;
     background: #ffffff;
     transition: 0.4s;
@@ -644,6 +644,12 @@ h1, h2, h3, h4, h5, h6 {
     }
     .inputs input[type="text"], .btn-subscribe{
         width: 100%;
+    }
+    .show-whatsapp{
+        width: 300px;
+    }
+    .whatsapp-message p{
+        width: 240px;
     }
 }
 
