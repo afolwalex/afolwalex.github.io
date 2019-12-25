@@ -652,5 +652,28 @@ h1, h2, h3, h4, h5, h6 {
         width: 240px;
     }
 }
-
+@media (min-width: 700px){
+    #intro{
+        height: 350px;
+    }
+    .course1, .course2, .course3, .flip-card-back{
+        height: 300px;
+    }
+    .flip-card-back h5{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+@media (min-width: 1200px){
+    #intro{
+        height: 80vh;
+    }
+    .course1, .course2, .course3{
+        height: 60vh;
+    }
+    .flip-card-back h5{
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+}
 
