@@ -225,6 +225,17 @@ body{
 .text-slider-items {
     display: none;
 }
+.version a{
+    border: 2px solid #413e66;
+    border-radius: 10px;
+    color: #413e66;
+    font-style: italic;
+}
+.version a:hover{
+    background: #413e66;
+    color: #ffffff;
+    text-decoration: none;
+}
   
 /*========ABOUT SECTION==========*/
 #about {
@@ -305,6 +316,9 @@ body{
 
 /*=======MEDIA QUERIES========*/
 @media(max-width: 500px){
+    #intro{
+        height: 90vh;
+    }
     #projects{
         padding-left: 5%;
         padding-right: 5%;
@@ -320,5 +334,8 @@ body{
     }
     .my-image{
         right: 32px;
+    }
+    .version a{
+        font-size: .9rem;
     }
 }
