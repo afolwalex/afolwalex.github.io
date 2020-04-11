@@ -291,8 +291,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #hero h1 span {
-  color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  font-weight: bold;
+  color : #D4AF37;
 }
 #hero p {
   color: #fff;
