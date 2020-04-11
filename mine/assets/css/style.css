@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  right: 25px;
+  right: 15px;
   bottom: 15px;
   z-index: 99999;
 }
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 /*======= WhatsApp Logo =======*/
 .whatsapp-logo {
   position: fixed;
-  right: 25px;
+  right: 15px;
   bottom: 55px;
   transition: all 0.5s;
   z-index: 11;
@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
 }
 #header.header-scrolled {
-  background: rgba(6, 12, 34, 0.9);
+  background: #012A2C;
   height: 60px;
 }
 #header .logo a {
@@ -135,6 +135,22 @@ h1, h2, h3, h4, h5, h6 {
   width: 50px;
   height: 50px;
 }
+.social-icons{
+  margin-right: 10%;
+}
+.social-icons ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.social-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+.social-icons li a {
+  color: #fff;
+  font-size: 1.2rem;
+}
 @media (max-width: 992px) {
   #header {
     height: 60px;
@@ -143,7 +159,11 @@ h1, h2, h3, h4, h5, h6 {
     width: 45px;
     height: 45px;
   }
+  .social-icons{
+    margin-right: 15%;
+  }
 }
+
 
 /*======== Navigation Menu ========*/
 .nav-menu, .nav-menu * {
@@ -190,7 +210,7 @@ h1, h2, h3, h4, h5, h6 {
 /*=======RESPONSIVE NAVBAR========*/
 .mobile-nav-toggle {
 	position: fixed;
-	right: 15px;
+	right: 5px;
 	top: 0;
 	z-index: 999;
 	border: 0;
@@ -231,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: -260px;
 	width: 260px;
 	padding-top: 18px;
-	background: #5D6D7E;
+	background: rgba(1, 42, 44, 0.9);
 	transition: all 0.5s;
 }
 .mobile-nav * {
@@ -255,33 +275,26 @@ h1, h2, h3, h4, h5, h6 {
 /*========Hero Section=======*/
 #hero {
   width: 100%;
-  background: url("../img/2.jpg");
-  background-size: contain;
-  position: relative;
+  background: url("../img/background.jpg");
+  background-size: cover;
   padding: 120px 0 0 0;
 }
-#hero:before {
-  content: "";
-  background: rgba(6, 12, 34, 0.8);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+.content {
+  margin-top: 40px;
 }
 #hero h1 {
   margin: 0 0 20px 0;
   font-size: 2.2rem;
   font-weight: 600;
   line-height: 56px;
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
 }
 #hero h1 span {
   color: #fff;
   border-bottom: 4px solid #1acc8d;
 }
 #hero p {
-  color: rgba(255, 255, 255, 0.8);
+  color: #fff;
   margin-bottom: 40px;
   font-size: 1.3rem;
 }
@@ -414,6 +427,11 @@ section {
   margin: 4px 10px;
 }
 
+@media (max-width : 576px) {
+  .section-title h2{
+    font-size: 1rem;
+  }
+}
 /*=============== About ================*/
 .main-btn{
   font-family: "Montserrat", sans-serif;
@@ -600,6 +618,7 @@ section {
 }
 
 /*========== Contact ==========*/
+
 .contact-para {
   margin-top: 30px;
 }
@@ -614,7 +633,7 @@ section {
 }
 /*========= Footer =======*/
 .footer {
-  background: rgba(6, 12, 34, 0.8);
+  background: #012A2C;
   padding: 30px 0 20px 0;
   color: #fff;
   font-size: 14px;
