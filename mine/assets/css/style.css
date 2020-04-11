@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  right: 15px;
+  right: 25px;
   bottom: 15px;
   z-index: 99999;
 }
@@ -131,12 +131,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-decoration: none;
 }
+.image-logo {
+  width: 50px;
+  height: 50px;
+}
 @media (max-width: 992px) {
   #header {
     height: 60px;
   }
-  #header .logo a {
-    font-size: 1.3rem;
+  .image-logo {
+    width: 45px;
+    height: 45px;
   }
 }
 
@@ -185,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 /*=======RESPONSIVE NAVBAR========*/
 .mobile-nav-toggle {
 	position: fixed;
-	right: 0;
+	right: 15px;
 	top: 0;
 	z-index: 999;
 	border: 0;
@@ -200,16 +205,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 20px 18px 0 0;
 } 
 .mobile-nav-toggle span {
-    display: block;
-    background-color: #f0f0f0;
-    height: 2px;
-    width: 25px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    left: 0;
-    opacity: 1;
+  display: block;
+  background-color: #fff;
+  height: 2px;
+  width: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  left: 0;
+  opacity: 1;
 }
 .mobile-nav-toggle .shift {
     width: 20px;
@@ -240,13 +245,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	padding: 10px 20px;
 	font-weight: 500;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
-
 .mobile-nav a:hover,
 .mobile-nav .active > a {
-  	color: #FF4500;
-  	text-decoration: none;
+  color: #FF4500;
+  text-decoration: none;
 }
 /*========Hero Section=======*/
 #hero {
