@@ -3,311 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="plugins/fontawesome/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="header">
+    <div class="perspective effet-rotate-left">
         <div class="container">
-
-            <div class="logo float-left">
-                <a href="index.html" class="navbar-brand"> &lt;Hi /&gt;</a>
-            </div>
-    
-            <div class="menu-custom float-right d-none d-lg-block">
-                <ul>
-                    <li><a href="#about" class="about-nav js-scroll">About</a></li>
-                    <li><a href="#skills" class="skills-nav js-scroll">Skills</a></li>
-                    <li><a href="#projects" class="project-nav js-scroll">Projects</a></li>
-                    <li><a href="https://drive.google.com/file/d/1--0kTZGQPxeFdKQPYAZN-ipaISgNG_bX/view?usp=drivesdk" target="_blank" class="resume-nav js-scroll">Resume</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <section id="intro" class="clearfix">
-        <div class="intro-container container">
-            <div class="ring-left d-none d-md-block">
-                <img src="images/circle-37563.svg" height="120px" width="120px">
-                <div class="gif">
-                    <img src="images/giphy.gif">
-                </div>
-            </div>
-            <div>
-                <div class="image-frame">
-                    <img src="images/decorative-33897.svg" class="frame" alt="frame">
-                    <div class="my-image">
-                        <img src="images/wale1.jpg" class="wale" alt="Image of me">
-                    </div>
-                </div>
-                <div class="introduction">
-                    <h2>Meet Afolabi Olawale</h2>
-                    <p class="intro-subtitle">A <span class="text-slider-items">Web Developer,Web Designer,Frontend Developer,Backend Developer, Graphic Designer</span><strong class="text-slider"></strong></p>
-                </div>
-                <div class="version mt-2">
-                    <a href="http://olawale-portfolio.herokuapp.com" target="_blank" class="btn">Check out the React version of this</a>
-                </div>
-            </div>
-
-            <div class="ring-right d-none d-md-block">
-                <img src="images/circle-37563.svg" height="120px" width="120px">
-                <div class="gif-second">
-                    <img src="images/giphy.gif">
-                </div>
-            </div>
-            
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container shadow-sm about-container">
-            <h3 class="text-center">About Me</h3>
-            <div class="row">
-                <div class="col-md-5 order-md-first order-last about-info">
-                    <p><strong>Full Name : </strong> Afolabi Olawale Isaac</p>
-                    <p><strong>Email : </strong> olawaleisaac9@gmail.com</p>
-                    <p><strong>Phone Number : </strong> +2349051151706</p>
-                    <p><strong>Github : </strong> <a href="https://github.com/afolwalex" target="_blank">afolwalex</a></p>
-                    <p><strong>Education : </strong> Bsc. Computer Science, University of Ilorin</p>
-                    <p><strong>Email : </strong> olawaleisaac9@gmail.com</p>
-  
-                    <p><strong>Hobbies : </strong> Football, Movies</p>
-                    <p>
-                        <ul>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <div class="outer-nav--return"></div>
+            <div id="viewport" class="my-viewport">
+                <div class="my-wrapper">
+                    <header class="header">
+                        <a class="header--logo" href="#0">
+                            <p>&lt; Hi / &gt;</p>
+                        </a>
+                        <a href="https://wa.me/2349051151706" target="_blank" class="header--cta cta">Hire Me</a>
+                        <div class="header--nav-toggle">
+                            <span></span>
+                        </div>
+                    </header>
+                    <nav class="l-side-nav">
+                        <ul class="side-nav">
+                            <li class="is-active"><span>Home</span></li>
+                            <li><span>Skills</span></li>
+                            <li><span>Projects</span></li>
+                            <li><span>Contact</span></li>
+                            <li><span>Resume</span></li>
                         </ul>
-                    </p>
-                </div>
-                <div class="col-md-7 about-text order-md-last order-first">
-                    <p>A bright, talented, ambitious and self-motivated individual with a strong technical background. Good self discipline and the ability
-                        to work with the minimum supervision. Able to play a key role throughout an application's development to ensure
-                        maximum accessibility, customers' experience and usability. Deadline oriented with ability to produce detailed
-                        technical specifications from client requirements. A quick learner who can absorb new ideas and can communicate
-                        clearly and effectively.
-                    </p>
-                    <p>
-                        Graduate of Computer Science from the University of Ilorin with a vast knowledge of softwares and
-                        hardwares. A FullStack developer with lots of projects to show for it. You can contact me via:
-                    </p>
-                    <hr class="d-lg-none">
-                </div>
-            </div>
-        </div>
-    </section>
+                    </nav>
+                    <ul class="l-main-content main-content">
 
-    <section id="skills">
-        <div class="container">
-            <h3 class="section-head">Skills</h3>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/html-5.png" width="50px" height="50px">
-                        <p>HTML 5</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/css3.png" width="50px" height="50px">
-                        <p>CSS 3</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/javascript.png" width="50px" height="50px">
-                        <p>JavaScript</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/jquery.png" width="50px" height="50px">
-                        <p>JQuery</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/bootstrap.png" width="50px" height="50px">
-                        <p>Bootstrap</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/git.png" width="50px" height="50px">
-                        <p>Git</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/github.png" width="50px" height="50px">
-                        <p>Github</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/react.png" width="50px" height="50px">
-                        <p>React</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/node-js.png" width="50px" height="50px">
-                        <p>Node Js</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/mongodb.png" width="50px" height="50px">
-                        <p>Mongo DB</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/wordpress.png" width="50px" height="50px">
-                        <p>WordPress</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-3">
-                    <div class="skill-box shadow-sm">
-                        <img src="images/skills/adobe-photoshop.png" width="50px" height="50px">
-                        <p>Adobe Photoshop</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                        <!--==========Home Page Section =============-->
+                        <li class="l-section section section--is-active">
+                            <div class="intro">
+                                <div class="intro--banner">
+                                    <p class="meet">Meet</p>
+                                    <h3>Afolabi<br> Olawale</h3>
+                                    <p>A fullstack developer</p>
+                                    <a href="https://wa.me/2349051151706" target="_blank" class="cta">Hire Me</a>
+                                    <img src="images/wale1.jpg" alt="Welcome">
+                                </div>
+                                <div class="intro--options">
+                                    <div class="about-message">
+                                        <h3>Education</h3>
+                                        <p>B.Sc Computer Science. University of Ilorin, Kwara State, Nigeria.</p>
+                                    </div>
+                                    <div class="about-message">
+                                        <h3>Striking Qualities</h3>
+                                        <p>Deadline oriented, Good communication skills, Creativity.</p>
+                                    </div>
+                                    <div class="about-message">
+                                        <h3>Hobbies</h3>
+                                        <p>Writing, Soccer, Movies, Music, Coding.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
 
-    <section id="projects">
-        <div class="container">
-            <h3 class="section-head">Projects</h3>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 mb-3">
-                    <div class="project shadow-sm">
-                        <img src="images/project/booksgalore.png" width="100%">
-                        <div class="content">
-                            <h5>Books Galore</h5>
-                            <p>A web app built with express for users to buy books online. Users can get books delivered to
-                                their doorsteps and check for a PDF version.</p>
-                            <hr>
-                            <p class="float-left completed">Completed</p>
-                            <p class="float-right">
-                                <a href="#" class="mr-3"><i class="fa fa-eye" title="Access"></i></a>
-                                <a href="#"><i class="fa fa-github" title="View on Github"></i></a>
-                            </p>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-3">
-                    <div class="project shadow-sm">
-                        <img src="images/project/ace-africa.png" width="100%">
-                        <div class="content">
-                            <h5>Ace Africa</h5>
-                            <p>A web app built with express for Ace Africa. It allows users to register 
-                                for courses, apply for jobs and get a digital skill.</p>
-                            <hr>
-                            <p class="float-left completed">Still in progress</p>
-                            <p class="float-right">
-                                <a href="http://ace-africa-app.herokuapp.com/" target="_blank" class="mr-3"><i class="fa fa-eye" title="Access"></i></a>
-                                <a href="https://github.com/afolwalex/Ace-Africa-Backend-" target="_blank" ><i class="fa fa-github" title="View on Github"></i></a>
-                            </p>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-3">
-                    <div class="project shadow-sm">
-                        <img src="images/project/restaurant.png" width="100%">
-                        <div class="content">
-                            <h5>Restaurant API</h5>
-                            <p>An API that can be used for restaurants hoping to get their data online. It allows customers to book orders and 
-                                make updates.
-                            </p>
-                            <hr>
-                            <p class="float-left completed">Completed</p>
-                            <p class="float-right">
-                                <a href="#" class="mr-3"><i class="fa fa-eye" title="Access"></i></a>
-                                <a href="#"><i class="fa fa-github" title="View on Github"></i></a>
-                            </p>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-3">
-                    <div class="project shadow-sm">
-                        <img src="images/project/exam-slate.png" width="100%">
-                        <div class="content">
-                            <h5>Exam Slate</h5>
-                            <p>A web app built with express to enable examiners set questions and invite students to take the exam.</p>
-                            <hr>
-                            <p class="float-left completed">Still in progress</p>
-                            <p class="float-right">
-                                <a href="#" class="mr-3"><i class="fa fa-eye" title="Access"></i></a>
-                                <a href="#"><i class="fa fa-github" title="View on Github"></i></a>
-                            </p>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-3">
-                    <div class="project shadow-sm">
-                        <img src="images/project/soccerfan.png" width="100%">
-                        <div class="content">
-                            <h5>Soccer Fan</h5>
-                            <p>A web app built with react for football fans. It allows users to take football quiz 
-                                and create customized jerseys.</p>
-                            <hr>
-                            <p class="float-left completed">Still in progress</p>
-                            <p class="float-right">
-                                <a href="#" class="mr-3"><i class="fa fa-eye" title="Access"></i></a>
-                                <a href="#"><i class="fa fa-github" title="View on Github"></i></a>
-                            </p>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 mb-3">
-                    <div class="project shadow-sm">
-                        <img src="images/project/login.png" width="100%">
-                        <div class="content">
-                            <h5>User Login System</h5>
-                            <p>A well validated Login system built with React and Express requiring users to sign up and then take
-                                them to the dashboard.
-                            </p>
-                            <hr>
-                            <p class="float-left completed">Completed</p>
-                            <p class="float-right">
-                                <a href="#" class="mr-3"><i class="fa fa-eye" title="Access"></i></a>
-                                <a href="#"><i class="fa fa-github" title="View on Github"></i></a>
-                            </p>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
+                        <!--============ Skills Section =================-->
+                        <li class="l-section section">
+                            <div class="hire">
+                                <h2>Which would you want me to use?</h2>
+                               
+                                <div class="work-request--options">
+                                    <span class="options-a">  
+                                        <label for="opt-1">HTML</label>
+                                        <label for="opt-2">CSS | SCSS</label>
+                                        <label for="opt-3">JavaScript</label>
+                                    </span>
+
+                                    <span class="options-a">  
+                                        <label for="opt-4">Bootstrap</label>
+                                        <label for="opt-5">Git</label>
+                                        <label for="opt-6">Github</label>
+                                    </span>
+
+                                    <span class="options-a">
+                                        <label for="opt-7">Python</label>
+                                        <label for="opt-8">JQuery</label>
+                                        <label for="opt-8">Express Js</label>
+                                    </span>
+                
+                                    <span class="options-a">  
+                                        <label for="opt-1">React</label>
+                                        <label for="opt-2">Node Js</label>
+                                        <label for="opt-3">Mongo DB</label>
+                                    </span>
+                                </div>
+                            </div>
+                        </li> 
+
+                        <!--========== Projects Section ===============-->
+                        <li class="l-section section">
+                            <div class="work">
+                                <h2>Some of my works</h2>
+                                <div class="work--lockup">
+                                    <ul class="slider">
+                                        <li class="slider--item slider--item-left">
+                                            <a href="#0">
+                                                <div class="slider--item-image">
+                                                    <img src="images/project/exam-slate.png" alt="exam-slate">
+                                                </div>
+                                                <p class="slider--item-title">Exam Slate</p>
+                                                <p class="slider--item-description">A web app built with express to enable examiners set questions and invite students to take the exam.</p>
+                                            </a>
+                                        </li>
+                                        <li class="slider--item slider--item-center">
+                                            <a href="#0">
+                                                <div class="slider--item-image">
+                                                    <img src="images/project/booksgalore.png" alt="booksgalore">
+                                                </div>
+                                                <p class="slider--item-title">Books Galore</p>
+                                                <p class="slider--item-description">A web app built with express for users to buy books online. Users can get books delivered to their doorsteps and check for a PDF version.</p>
+                                            </a>
+                                        </li>
+                                        <li class="slider--item slider--item-right">
+                                            <a href="#0">
+                                                <div class="slider--item-image">
+                                                    <img src="images/project/blaze.png" alt="booksgalore">
+                                                </div>
+                                                <p class="slider--item-title">Blaze</p>
+                                                <p class="slider--item-description">Blaze allows you to upload lyrics to your favorite music playlist.</p>
+                                            </a>
+                                        </li>
+                                 
+                                    </ul>
+                                    <div class="slider--prev">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                                            <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                                                <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                                                c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                                                c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="slider--next">
+                                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                                            <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                                                <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </li> 
+
+                        <!--========= Contact Section ===============-->
+                        <li class="l-section section">
+                            <div class="contact">
+                                <div class="contact--lockup">
+                                    <div class="modal">
+                                        <div class="modal--information">
+                                            <a href="mailto:ouremail@gmail.com">olawaleisaac9@gmail.com</a>
+                                            <a href="tel:+148126287560">+234 9051151706</a>
+                                        </div>
+                                        <ul class="modal--options">
+                                            <li><a href="https://twitter.com/afolwalex" target="_blank">
+                                                <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li><a href="https://wa.me/2349051151706" target="_blank">
+                                                <i class="fa fa-whatsapp"></i>
+                                                </a>
+                                            </li>
+                                            <li><a href="https://github.com/afolwalex" target="_blank">
+                                                <i class="fa fa-github"></i>
+                                                </a>
+                                            </li>
+                                            <li><a href="https://instagram.com/afolwalex" target="_blank">
+                                                <i class="fa fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--======== Resume Section =========-->
+                        <li class="l-section section">
+                            <div class="resume">
+                                <h2>Download or view my resume</h2>
+                                    <div class="resume--lockup">
+                                        
+                                        <a href="#0">Click here</a>
+                                        <p>Inspired by Global Master Template.....</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+        <ul class="outer-nav">
+            <li class="is-active">Home</li>
+            <li>Skills</li>
+            <li>Projects</li>
+            <li>Contact</li>
+            <li>Resume</li>
+        </ul>
+    </div>
+
     
-    <footer id="footer">
-        <div class="copyright">
-            <div class="text-center">
-                <p>&copy; Afolwalex, 2020</p>
-            </div>
-        </div>
-    </footer>
-    
-    <script src="js/jquery.min.js"></script>
-    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="js/typed.min.js"></script>
-    <script src="js/mobile-menu.js"></script>
-    <script src="js/main.js"></script>
-   
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="js/functions-min.js"></script>
 </body>
 </html>
