@@ -270,9 +270,24 @@ svg:not(:root){
     visibility: visible;
     transition: opacity .4s ease-in-out .4s;
 }
+.scroll-down{
+    display: none;
+}
+.scroll-down span{
+    font-size: .9rem;
+    color: rgba(255, 255, 255, 0.5);
+}
 @media (max-width: 767px){
     .header--cta{
         display: none;
+    }
+}
+@media (max-width: 450px){
+    .header--nav-toggle{
+        display: none;
+    }
+    .scroll-down{
+        display: block;
     }
 }
 .side-nav{
