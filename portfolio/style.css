@@ -272,6 +272,7 @@ svg:not(:root){
 }
 .scroll-down{
     display: none;
+    margin-top: 20px;
 }
 .scroll-down span{
     font-size: .9rem;
