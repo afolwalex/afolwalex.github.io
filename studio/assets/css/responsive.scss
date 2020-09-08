@@ -1,0 +1,131 @@
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 640px) {
+    body {
+        overflow: visible;
+    }
+    .cont {
+        margin-top: 50px;
+        margin-left: 10px;
+        fieldset {
+            height: 100%;
+        }
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-container {
+        width: 70%;
+        height: 100%;
+        margin-left: 40px;
+        img {
+            height: 150px;
+        }
+    }
+    .p-static {
+        font-size: 18pt;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .static {
+        margin-left: 30px !important;
+    }
+    .ui-nav {
+        margin-top: 30px;
+    }
+    .ui {
+        margin-top: 40px;
+        margin-left: -20px;
+        img {
+            width: 70% !important;
+        }
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+// @media only screen and (min-width: 600px) {
+//     ...
+// }
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 639px) and (max-width: 768px) {
+    .cont {
+        input {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+    }
+    .static {
+        margin-left: 130px !important;
+    }
+    .ui {
+        margin-top: 40px;
+        img {
+            width: 32% !important;
+        }
+    }
+    .associate {
+        margin-left: 70px;
+        img {
+            width: 30%;
+            margin-left: -30px;
+        }
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .p-static {
+        margin-top: 50px;
+    }
+    .cont {
+        margin-top: 70px;
+        margin-left: 60px;
+        fieldset {
+            height: 100%;
+        }
+        input {
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+    }
+    .img-container {
+        img {
+            height: 170px;
+        }
+    }
+    .flex {
+        flex-wrap: wrap;
+    }
+    .static {
+        margin-left: 14px;
+    }
+    .ui {
+        margin-top: 40px;
+        img {
+            width: 35%;
+        }
+    }
+    .associate {
+        margin-left: 70px;
+        img {
+            width: 30%;
+            margin-left: -20px;
+        }
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
